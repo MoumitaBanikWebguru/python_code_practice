@@ -1,0 +1,6 @@
+countries = ("Spain", "Italy", "India", "England", "Germany")
+c2 = list(countries)
+c2.append("hello")
+print(c2)
+c3 = tuple(c2)
+print(c3)
